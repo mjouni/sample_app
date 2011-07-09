@@ -1,0 +1,27 @@
+
+
+Started POST "/mircoposts" for 127.0.0.1 at 2011-07-09 11:50:24 +0300
+
+ActionController::RoutingError (No route matches "/mircoposts"):
+  
+
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from synchronize at <internal:prelude>:10)
+Rendered /Users/mohammadjouni/.rvm/gems/ruby-1.9.2-p180@rails3tutorial/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-07-09 11:57:26 +0300
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at 2011-07-09 11:57:38 +0300
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2011-07-09 11:57:44 +0300
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
