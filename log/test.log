@@ -330,3 +330,141 @@ Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
 Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
   Processing by PagesController#about as HTML
 Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.5ms)
+Rendered layouts/_header.html.erb (1.3ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 22ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.5ms)
+Rendered layouts/_header.html.erb (0.4ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#contact as HTML
+Rendered layouts/_stylesheets.html.erb (0.5ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#contact as HTML
+Rendered layouts/_stylesheets.html.erb (0.4ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#about as HTML
+Rendered layouts/_stylesheets.html.erb (0.5ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#about as HTML
+Rendered layouts/_stylesheets.html.erb (0.6ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+  Processing by UsersController#new as HTML
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2011-07-14 23:10:58 +0300
+  Processing by PagesController#contact as HTML
+Rendered layouts/_stylesheets.html.erb (0.5ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2011-07-14 23:10:58 +0300
+  Processing by PagesController#about as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2011-07-14 23:10:58 +0300
+  Processing by PagesController#help as HTML
+Rendered layouts/_stylesheets.html.erb (0.5ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 20ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-07-14 23:10:58 +0300
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (20.8ms)
+Rendered layouts/_header.html.erb (0.6ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 23ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.8ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered pages/home.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.4ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#contact as HTML
+Rendered layouts/_stylesheets.html.erb (0.5ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#contact as HTML
+Rendered layouts/_stylesheets.html.erb (0.5ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#about as HTML
+Rendered layouts/_stylesheets.html.erb (0.4ms)
+Rendered layouts/_header.html.erb (0.4ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 3ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+  Processing by PagesController#about as HTML
+Rendered layouts/_stylesheets.html.erb (0.5ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+  Processing by UsersController#new as HTML
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-14 23:29:39 +0300
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.5ms)
+Rendered layouts/_header.html.erb (0.4ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2011-07-14 23:29:39 +0300
+  Processing by PagesController#contact as HTML
+Rendered layouts/_stylesheets.html.erb (0.5ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2011-07-14 23:29:39 +0300
+  Processing by PagesController#about as HTML
+Rendered layouts/_stylesheets.html.erb (0.5ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2011-07-14 23:29:39 +0300
+  Processing by PagesController#help as HTML
+Rendered layouts/_stylesheets.html.erb (0.5ms)
+Rendered layouts/_header.html.erb (0.4ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-07-14 23:29:39 +0300
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.5ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 2ms (Views: 2.3ms | ActiveRecord: 0.0ms)
